@@ -1,0 +1,104 @@
+body{
+  background-color: #999;
+}
+.img-responsive{
+ max-height: 100%;
+ width: 100%;
+ position: absolute;
+}
+.rocket{ 
+  background-color: #00FFFF;
+  height: 100%;
+} 
+.col-sm-6{
+  background-color: #F5F5DC ;
+  height: 50%;
+  z-index: -1;
+}
+.nest{
+  height: auto;
+  background-color: #FFF;
+  
+  
+}
+.navbar.navbar-default{
+  margin-bottom: 0;
+  background-color: #999;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+#brand{
+  color: white;
+}
+#brand:hover{
+  color:#ADFF2F;
+}
+.enter{
+  text-align: center;
+  font-size: 300%;
+  color: #FAEBD7;
+  position: relative;
+  z-index: 2;
+}
+.new-div{
+  
+  position: relative;
+  background-color:#B22222;
+  height: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#about-me{
+  float: left;
+  padding-left: 1%;
+  font-size: 150%;
+  max-width: 40%;
+  max-height: 50%;
+  text-align: left;
+  
+}
+#about-me-p{
+  float: left;
+  padding-right: 0;
+  padding-left: 0;
+  
+  font-size: 12px;
+  text-align: left;
+  
+  
+}
+.jumbotron{
+  max-width: 100%;
+  background-color: green;
+  border: 10px solid red;
+  padding-top: 10%;
+  }
+#who-am-i{
+padding: 0;
+margin: 0;
+text-align: center;
+}
+#about-me{
+  padding-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0;
+  max-height: 100%;
+  overflow: hidden;
+}
+#infinity{
+  position: relative;
+  padding-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0;
+  max-height: 30%;
+  max-width: 30%;
+  overflow: hidden;
+  float: right;
+  padding: 1%;
+}
+.titles{
+  padding-top: 5px;
+}
